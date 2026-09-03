@@ -2,8 +2,6 @@ from flask import Flask, request
 import pandas as pd
 import numpy as np
 import math
-import warnings
-warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
 
