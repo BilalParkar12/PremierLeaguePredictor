@@ -1,7 +1,6 @@
 from flask import Flask, request
 import pandas as pd
 import numpy as np
-from scipy import stats
 import math
 import warnings
 warnings.filterwarnings('ignore')
