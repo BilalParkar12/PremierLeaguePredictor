@@ -5,6 +5,7 @@ This Premier League Predictor collects historical match results to predict the s
 ### Tech Stack
 - Python
 - HTML
+- CSS
 - Flask
 - Pandas
 - NumPy
@@ -46,3 +47,4 @@ python3 PLPredictor.py
 - Flask - uses Flask to return a HTML page
 - Python - uses Python for the score prediction for each team
 - Historical match data - stores historical scorelines in a CSV file
+- Score Prediction - uses a Poisson model to predict the number of goals each team will score
