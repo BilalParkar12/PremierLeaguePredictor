@@ -10,7 +10,7 @@ This Premier League Predictor collects historical match results to predict the s
 - Pandas
 - NumPy
 
-Follow these steps to set up a virtual environment and run the application
+Follow these steps to set up a virtual environment and run the application:
 
 ### 1. Clone the repository
 ```
