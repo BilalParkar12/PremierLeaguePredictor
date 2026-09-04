@@ -33,7 +33,6 @@ source virtual_env/bin/activate
 pip install flask
 pip install numpy
 pip install pandas
-python PLPredictor.py
 ```
 
 ### Usage
