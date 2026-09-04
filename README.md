@@ -10,29 +10,32 @@ This Premier League Predictor collects historical match results to predict the s
 - Pandas
 - NumPy
 
-### Installation
-Windows
+### Cloning the respiratory
 ```
 git clone https://github.com/BilalParkar12/PremierLeaguePredictor.git
 cd PremierLeaguePredictor
+```
+
+### Setting up the virtual environment
+Windows
+```
 python -m venv virtual_env
 virtual_env\Scripts\activate
+```
+macOS/Linux
+```
+python3 -m venv virtual_env
+source virtual_env/bin/activate
+```
+
+### Installing modules
+```
 pip install flask
 pip install numpy
 pip install pandas
 python PLPredictor.py
 ```
-macOS/Linux
-```
-git clone https://github.com/BilalParkar12/PremierLeaguePredictor.git
-cd PremierLeaguePredictor
-python3 -m venv virtual_env
-source virtual_env/bin/activate
-pip install flask
-pip install numpy
-pip install pandas
-python3 PLPredictor.py
-```
+
 ### Usage
 Windows
 ```
