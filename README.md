@@ -15,45 +15,73 @@ Follow these steps to set up a virtual environment and run the application:
 ### 1. Clone the repository
 ```
 git clone https://github.com/BilalParkar12/PremierLeaguePredictor.git
+```
+### 2. Navigate to the folder
+```
 cd PremierLeaguePredictor
 ```
 
-### 2. Set up the virtual environment
-Windows
+### 3. Set up the virtual environment
+Windows (PowerShell)
 ```
-python -m venv virtual_env
-virtual_env\Scripts\activate
+py -m venv virtual_env
 ```
-macOS/Linux
+macOS
 ```
 python3 -m venv virtual_env
-source virtual_env/bin/activate
+```
+Linux
+```
 ```
 
-### 3. Install modules
-Windows
+### 4. Enable the Activate.ps1 script (Windows PowerShell)
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+### 5. Activate the virtual environment
+Windows (PowerShell)
+```
+virtual_env\Scripts\Activate.ps1
+```
+macOS
+```
+source virtual_env/bin/activate
+```
+Linux
+```
+```
+
+### 6. Install modules
+Windows (PowerShell)
 ```
 pip install flask
 pip install numpy
 pip install pandas
 ```
-macOS/Linux
+macOS
 ```
 pip3 install flask
 pip3 install numpy
 pip3 install pandas
 ```
+Linux
+```
+```
 
-### 4. Usage
+### 7. Usage
 Windows
 ```
 python PLPredictor.py
 ```
-macOS/Linux
+macOS
 ```
 python3 PLPredictor.py
 ```
-### 5. View in browser
+Linux
+```
+```
+### 8. View in browser
 Open Google Chrome and copy and paste the address shown.
 
 ### Features
