@@ -30,9 +30,6 @@ macOS
 ```
 python3 -m venv virtual_env
 ```
-Linux
-```
-```
 
 ### 4. Enable the Activate.ps1 script (Windows PowerShell)
 ```
@@ -48,9 +45,6 @@ macOS
 ```
 source virtual_env/bin/activate
 ```
-Linux
-```
-```
 
 ### 6. Install modules
 Windows (PowerShell)
@@ -65,9 +59,6 @@ pip3 install flask
 pip3 install numpy
 pip3 install pandas
 ```
-Linux
-```
-```
 
 ### 7. Usage
 Windows
@@ -78,9 +69,7 @@ macOS
 ```
 python3 PLPredictor.py
 ```
-Linux
-```
-```
+
 ### 8. View in browser
 Open Google Chrome and copy and paste the address shown.
 
