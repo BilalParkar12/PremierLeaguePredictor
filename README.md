@@ -1,14 +1,11 @@
 # Premier League Predictor
 
-This Premier League Predictor collects historical match results to predict the scores of upcoming Premier League matches.
+A Flask application that collects historical match results to predict the scores of upcoming Premier League matches.
 
 ### Tech Stack
-- Python
-- HTML
-- CSS
-- Flask
-- Pandas
-- NumPy
+- Frontend - HTML (displays web pages), CSS (styles the web pages with colours)
+- Backend - Python (score prediction for each team), Flask (framework to combine HTML and Python into one Python file)
+- Modules - Pandas (collect historical match results from a CSV file), NumPy (convert data collected from a CSV file into an array)
 
 Follow these steps to set up a virtual environment and run the application:
 
@@ -75,7 +72,4 @@ Open Google Chrome and copy and paste the address shown.
 
 ### Features
 - User Capabilities - users can select a game for the next set of upcoming matches, then see the predicted scoreline for the match selected
-- Flask - uses Flask to return a HTML page
-- Python - uses Python for the score prediction for each team
-- Historical match data - stores historical scorelines in a CSV file
 - Score Prediction - uses a Poisson model to predict the number of goals each team will score
